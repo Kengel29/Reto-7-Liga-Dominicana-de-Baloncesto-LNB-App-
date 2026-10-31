@@ -1,0 +1,5 @@
+885e700 | 2026-10-30 | Equipo LNB Fans | docs: README con estructura y explicación de React
+4e43079 | 2026-10-30 | Equipo LNB Fans | feat: App.jsx compone componentes y hooks
+a928cf0 | 2026-10-30 | Equipo LNB Fans | feat: hooks personalizados (useLiveGames, useTrivia, useComments)
+e06a14d | 2026-10-30 | Equipo LNB Fans | feat: datos separados y componentes visuales (Header, tabs, modal, footer)
+27fd0cc | 2026-10-30 | Equipo LNB Fans | chore: configurar Vite, Tailwind, index.html y estilos base

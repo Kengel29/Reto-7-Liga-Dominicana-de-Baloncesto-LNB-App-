@@ -1,2 +1,42 @@
-# Reto-7-Liga-Dominicana-de-Baloncesto-LNB-App-
-Tarea
+# 🏀 LNB Fans – Liga Dominicana de Baloncesto (app fan-made)
+
+**Grupo:** _(nombre del grupo)_
+**Integrantes:** _(nombre 1, nombre 2, nombre 3…)_
+
+## Descripción
+App web fan-made para atraer a jóvenes a la LNB. Tiene 4 pestañas: **Partidos & Vivo** (marcadores simulados en tiempo real), **Posiciones**, **Jugadores** (búsqueda, filtro por posición y ficha) y **Barrio Fan Zone** (votación MVP, muro de cánticos y trivia). Lema: *"El basket une barrios y pasiones"*. Los datos son de ejemplo.
+
+## Estructura
+```
+index.html              → HTML principal
+src/main.jsx            → script de arranque de React
+src/App.jsx             → componente raíz (estado global y pestañas)
+src/styles/index.css    → CSS (Tailwind + reglas base)
+src/data/               → equipos, jugadores, partidos y trivia
+src/hooks/              → useLiveGames, useTrivia, useComments
+src/components/         → Header, LiveTab, StandingsTab, PlayersTab,
+                          PlayerModal, FanZoneTab, Footer, UserDetailIcon
+tailwind.config.js      → colores/animaciones (fadeIn, scaleUp)
+```
+
+## Tecnologías
+React 18 · JavaScript · HTML5 · CSS3 (Tailwind CSS) · Vite · lucide-react · Git
+
+## Cómo ejecutarlo
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+## Uso de React (presentación)
+- **Componentes:** cada pestaña y sección es un componente con props.
+- **Estado (`useState`):** pestaña activa, modo oscuro, votos, jugador seleccionado, búsqueda, trivia.
+- **Efectos (`useEffect`):** `setInterval` con limpieza en `useLiveGames` para los marcadores en vivo.
+- **Hooks personalizados:** separan la lógica de la interfaz.
+
+## Qué aprendimos
+_(Completen con sus palabras.)_
+
+## Enlace de despliegue
+_(Vercel / Netlify / GitHub Pages: +5 puntos)_
