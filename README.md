@@ -1,7 +1,11 @@
 # 🏀 LNB Fans – Liga Dominicana de Baloncesto (app fan-made)
 
-**Grupo:** _(nombre del grupo)_
-**Integrantes:** _(nombre 1, nombre 2, nombre 3…)_
+**Grupo:** 7
+**Integrantes:**   
+  Kendri Tatis 100263465
+  Rodolfo Starlyn Espinal Hilario 100100513
+  Aneudy de la Cruz 100465614
+  César Adrián Aybar Montes De Oca 100692670
 
 ## Descripción
 App web fan-made para atraer a jóvenes a la LNB. Tiene 4 pestañas: **Partidos & Vivo** (marcadores simulados en tiempo real), **Posiciones**, **Jugadores** (búsqueda, filtro por posición y ficha) y **Barrio Fan Zone** (votación MVP, muro de cánticos y trivia). Lema: *"El basket une barrios y pasiones"*. Los datos son de ejemplo.
@@ -35,8 +39,3 @@ npm run build
 - **Efectos (`useEffect`):** `setInterval` con limpieza en `useLiveGames` para los marcadores en vivo.
 - **Hooks personalizados:** separan la lógica de la interfaz.
 
-## Qué aprendimos
-_(Completen con sus palabras.)_
-
-## Enlace de despliegue
-_(Vercel / Netlify / GitHub Pages: +5 puntos)_
